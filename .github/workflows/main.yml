@@ -1,0 +1,8 @@
+name : github action demo
+run-name: testing out github action
+on : [push]
+jobs:
+Basic-Workflow:
+runs-on: ubuntu-latest
+steps:
+run: echo "job is executing as part of basic workflow"concurrency: 
